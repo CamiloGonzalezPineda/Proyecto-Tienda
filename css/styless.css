@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 249, 249);
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.redes{
+    background-color: rgba(239, 228, 228, 0.75);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+    
+.bienvenido{
+    height:200vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    background-color: rgba(22, 168, 168, 0.4);
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+h2{
+    font-size: 50px;
+    margin-top: -70%;
+    
+    
+}
+h4{
+    color: white;
+   
+}
+input {
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.inicio{
+    background-color: rgb(201, 26, 26);
+    height: 40%;
+    margin-top: 10px;
+    
+    
+   
+   
+}
+.cajas{
+    background-color:rgb(238, 238, 12);
+    height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    
+
+}
+.imagen1{
+    background-color:rgb(12, 238, 83);
+    height: 40%;
+    width: 25%;
+    margin-top: 10px;
+}
+.imagen2{
+    background-color:rgb(12, 238, 38);
+    height: 40%;
+    width: 25%;
+    margin-top: 10px;
+}
+.imagen3{
+    background-color:rgb(12, 238, 16);
+    height: 40%;
+    width: 25%;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    height: 10%;
+    margin-top: 10px;
+}
